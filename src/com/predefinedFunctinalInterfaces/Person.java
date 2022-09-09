@@ -1,9 +1,14 @@
 package com.predefinedFunctinalInterfaces;
 
 public class Person {
-    private String name;
-    private int age;
-    private String country;
+     public String name;
+     public int age;
+     public String country;
+
+
+    Person(){
+
+    }
 
     public Person(String name, int age, String country){
         this.name = name;
