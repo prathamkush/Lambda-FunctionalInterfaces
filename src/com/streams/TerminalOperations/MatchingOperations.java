@@ -44,7 +44,7 @@ public class MatchingOperations {
         boolean nameNotStartWithK = stringList.stream().noneMatch(s -> s.getName().charAt(0) == 'K');
         System.out.println(nameNotStartWithK);
         //or
-        //Boolean noneStartsWithK = stringList.stream().noneMatch(s->s.getName().substring(0,1).equals("K"));
+        //boolean noneStartsWithK = stringList.stream().noneMatch(s->s.getName().substring(0,1).equals("K"));
 
 
     }

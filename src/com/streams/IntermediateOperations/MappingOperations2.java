@@ -12,7 +12,7 @@ public class MappingOperations2 {
     //Array of strings, return a new array of strings that includes those characters > 5
     // and change all of the array of string to uppercase
     public static void main(String[] args) {
-        ArrayList<String> l1 = new ArrayList<String>(Arrays.asList("Pratham", "Aman", "Akshay"));
+        ArrayList<String> l1 = new ArrayList<String>(Arrays.asList("Pratham",   "Aman", "Akshay"));
 
 
         Stream<String> stream = l1.stream().filter(s -> s.length() > 5).map(s -> s.toUpperCase());
