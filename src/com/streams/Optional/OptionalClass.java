@@ -14,6 +14,7 @@ public class OptionalClass {
     }*/
 
     public Optional<Person1> getPerson(Integer personId){
+
         return Optional.ofNullable(personMap.get(personId));
     }
 
@@ -22,10 +23,6 @@ public class OptionalClass {
         OptionalClass check = new OptionalClass();
 
         // 1 2
-
-
-
-
 
         //Some Person with some ID
         Optional<Person1> obj1 = check.getPerson(32);

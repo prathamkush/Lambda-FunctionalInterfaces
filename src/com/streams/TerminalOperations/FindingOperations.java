@@ -19,7 +19,7 @@ public class FindingOperations {
         Optional<Person2> p = list.stream().filter(s -> s.getCountry().equals("UK")).findAny();
 
         System.out.println("hasdsafd");
-        System.out.println(list.stream().filter(s -> s.getCountry().equals("UK")).findAny());
+        System.out.println(list.stream().filter(s -> s.getCountry().equals("UK")).findFirst());
         System.out.println("-----");
         if(p.isPresent()){
             System.out.println(p);

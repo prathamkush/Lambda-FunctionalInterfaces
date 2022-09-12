@@ -47,6 +47,7 @@ public class ReductionOperations {
         list2.add(4);
         list2.add(8);
 
+        Optional<Integer> tt = list.stream().map(s -> s.getSalary()).reduce((a,b) -> a+b);
         int totalSalary1 = list2.stream().reduce(10, (p1, n) -> p1+n);
         System.out.println("Total sum is : "+totalSalary1);
 

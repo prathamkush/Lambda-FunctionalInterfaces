@@ -1,13 +1,8 @@
 package com.predefinedFunctinalInterfaces;
 
-import com.sun.org.apache.xpath.internal.operations.Bool;
-
-import javax.swing.*;
-import java.util.ArrayList;
 import java.util.function.BiPredicate;
-import java.util.function.Predicate;
 
-public class PredicateTest2 {
+public class PredicateTest2_BiPredicate {
     static boolean isPersonEligibleForVoting(Person person, Integer minage, BiPredicate<Person,Integer> predicate){
         return predicate.test(person, minage);
     }
