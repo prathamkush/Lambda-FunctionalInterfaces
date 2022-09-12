@@ -4,6 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Stream;
 
+// Not disturbing the data structure,
+// just consuming the data and manipulate by our
+// own methods
 public class Intro {
     public static void main(String[] args) {
         Stream<Integer> checkStream = Stream.of(3,4152,12,1,2,3);

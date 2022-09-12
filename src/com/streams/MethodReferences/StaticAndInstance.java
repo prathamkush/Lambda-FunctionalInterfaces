@@ -3,6 +3,8 @@ package com.streams.MethodReferences;
 import java.util.ArrayList;
 import java.util.List;
 
+
+//
 public class StaticAndInstance {
 
     public static int getLength(String str){
