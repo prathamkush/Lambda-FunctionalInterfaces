@@ -1,20 +1,17 @@
-package com.streams.Collectors.CollectionsOperations;
+package com.streams.Collectors;
 
 
 import java.util.*;
-import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 import java.util.List;
 import java.util.ArrayList;
 import java.util.TreeSet;
-import java.util.HashMap;
 
 public class CollectionOperations {
     public static void main(String[] args) {
         // 1. Collect Method
         List<Person4> list = new ArrayList<>();
-
 
         list.add(new Person4("Bob",21,45456,"UAE"));
         list.add(new Person4("Francis", 24,75635,"USA"));

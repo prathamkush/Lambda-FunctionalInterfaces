@@ -74,8 +74,8 @@ public class ReductionOperations {
 
 
 
-        //System.out.println((list.stream().map(s -> s.getSalary()).reduce((p,q) -> p - q)).getClass().getSimpleName());
-        //System.out.println((list2.stream().reduce(10,(p1,n)->p1+n)).getClass().getSimpleName());
+    //(Object<Integer>)      //System.out.println((list.stream().map(s -> s.getSalary()).reduce((p,q) -> p - q)).getClass().getSimpleName());
+    //(Integer)             //System.out.println((list2.stream().reduce(10,(p1,n)->p1+n)).getClass().getSimpleName());
 
     }
 }
